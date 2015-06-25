@@ -1,0 +1,8 @@
+---
+applications:
+- name: cf-mongo-express
+  memory: 256M
+  instances: 1
+  host: cf-mongo-express
+  services:
+    - mongotest

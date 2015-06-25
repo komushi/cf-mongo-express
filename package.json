@@ -1,0 +1,16 @@
+{
+  "name": "cf-mongo-express",
+  "version": "1.0.0",
+  "description": "mongo express wrapper for cloud foundry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cfenv": "^1.0.0",
+    "mongo-express": "^0.21.0"
+  }
+}
